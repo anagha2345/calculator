@@ -1,59 +1,63 @@
-.box{
-   
-    background-color: rgba(113, 159, 159, 0.296);
-    margin-top: 100px;
-    height: 400px;
-    box-shadow: 0px 1px 4px 0px black;
-    padding: 8px;
 
-   
-}
-.parent{
-    margin-top: 200px;
-    width: 350px;
-    height: 500px;
+.main{
+    width: 380px;
+    height: 520px;
+    background-color: rgb(186, 226, 226);
+  margin-top: 100px;
+  margin-left: 600px;
+  padding: 8px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 3px 0px rgb(244, 237, 237);
     
 }
-.d1{
-    width: 450px;
-}
-
-.col-12{
-    flex: 0 0 auto;
-}
-.top{
+h3{
     text-align: center;
 }
-.inputbox{
-  background-color: rgba(0, 0, 0, 0.386);
-}
-.main{
-    display: flex;
-}
-.rows{
-    display: flex;
-   justify-content: space-evenly;
-   padding-top: 8px;
-}
+
 .btn{
-    width: 35px;
-    height: 40px;
+    width: 40px;
+    height: 50px;
+    padding: 8px;
+
 }
-.del{
-    padding-left: 35%;
-    padding-top: 20px;
+.btnrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:25px ; 
+    margin-right:25px  ;
+    margin-top: 25px;
+    text-align: center;
+    
 }
 .btn1{
-    width: 100px;
-    height: 50px;
+    box-shadow: 1px 3px 2px 0px rgb(35, 32, 25);
 }
-@media(max-width:400px){
-    .box{
-        margin-top: 100px;
+.inpt{
+   
+    box-shadow: 0px 0px 3px 3px rgb(35, 32, 25);
+}
+
+
+@media(min-width:100px) and (max-width:550px)
+{
+   
+
+    .main{
+        background-color: rgba(161, 149, 178, 0.575);
         width: 300px;
-        height: 350px;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 2px;
+        margin-top: 5px;
     }
-    .d1{
-        width: 200px;
+    
+    .btn{
+
+      width: 40px;
+      height: 40px;
+       padding: 2px;
+    }
+    .btnrow{
+        margin-top: 20px;
     }
 }
